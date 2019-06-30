@@ -1,0 +1,51 @@
+In this lesson the FC cmd was used to find the differences between 2 files.
+
+FC file1 file2 was the command
+turns out navigating the windows cmdline, / works as well
+
+This helped me to spot the bug in the code because it compared the new file with the bug to the old "correct" version.
+It then displayed the lines of code with differences (and a few lines above and below that line, to give context I guess),
+It was then just an easy job of checking which line of code contained the error.
+
+Line numbers however were not shown.
+There were also weird asterisks to denote new segments of code
+
+part2:
+having the entire history would enable one to quickly spot errors in code.
+in the case that trying something big didn't work, the change can be reversed easily over a long history
+it would also give you the entire history of code to work with and you can learn from your developement patterns.
+
+part3:
+Thinking about the pros and cons of having to manually commit when using Git:
+
+Pros:
+You have complete control of when to commit, allowing you to structure your commit to your liking
+Can add more commit options such as descriptions, etc
+No redundant commits
+
+Cons:
+What if you forget to commit?
+Complete control of when to commit: what if you are choosing a bad way to do it?
+Extra buttons to click
+
+part4:
+thinking about why git allows multiple files vs google docs - which is one file
+ - git allows multiple files so that the code can be run in that instance (allows for dependencies)
+ - unlikely that there is a dependency with google docs, therefore don't do that
+ 
+part5:
+git log is more useful with the --stat command, the newest commit is shown first
+the commit id is at the top
+
+git diff shows the changes, need to count the lines for deletions and insertions
+
+part6:
+Thinking baout how using version control might make one more confident to make changes that could break your code.
+The way the repositories capture an instance of all your code makes it easy to revert back by using the checkout.
+You can even spot errors by using the git diff command.
+That way, when you are going to make any changes, you can simply backup your stuff and then revert back if it breaks.
+Even helps you spot the error as was mentioned previously.
+
+part7:
+Now that the workspace for Git is finally setup, what do I want to try using it for?
+There are some projects which I would like to use it for right now.
