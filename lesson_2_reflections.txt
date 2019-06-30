@@ -21,3 +21,9 @@ considering how one can used the staging area to ensure one logical change per c
 This can be done using git add to add files to be committed so that only one logical per change is done.
 One can use the git diff command, without args, to compare the staging area to the working directory, to check what files are in there vs the working directory to ensure that only one change was added.
 git diff --staged can then be used to ensure that the file added was not for some reason already previously added to the repository.
+
+part 4:
+Considering when branches would be useful to use in git.
+
+Branches would be useful for experimental features that might break the main code or just different version i.e. different layouts. Ultimately, kind of for code that is just different to the main one, but when you still want to have the main code around as well.
+
