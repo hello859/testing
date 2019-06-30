@@ -36,5 +36,4 @@ Using the branching diagrams, a few pieces of information are conveyed at a glan
 3rd - all the branches are shown
 4th - any merges/non-merges can easily be seen as well
 
-it is also easy to then label and add extra info to this diagram 
-
+it is also easy to then label and add extra info to this diagram for extra detail
