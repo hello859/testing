@@ -27,3 +27,14 @@ Considering when branches would be useful to use in git.
 
 Branches would be useful for experimental features that might break the main code or just different version i.e. different layouts. Ultimately, kind of for code that is just different to the main one, but when you still want to have the main code around as well.
 
+part 5:
+Considering how the branch diagrams help to visualize the branching structure for git.
+
+Using the branching diagrams, a few pieces of information are conveyed at a glance:
+1st - the chronological order of when the branches are made.
+2nd - if the arrows are used, what the commit history will show
+3rd - all the branches are shown
+4th - any merges/non-merges can easily be seen as well
+
+it is also easy to then label and add extra info to this diagram 
+
