@@ -37,3 +37,10 @@ Using the branching diagrams, a few pieces of information are conveyed at a glan
 4th - any merges/non-merges can easily be seen as well
 
 it is also easy to then label and add extra info to this diagram for extra detail
+
+part 6:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged together, the code changes in both branches are compared to the root node, and then code from both the files are added/leftout or left alone depending on the actions of the users in their specific branches as compared to the root node.
+
+We represent it in the diagram the way we do so we can see the changes easily and check which nodes can be reached from the new merged node.
