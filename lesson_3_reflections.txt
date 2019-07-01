@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Using a remote repository is good for several possible reasons - in this case what will be discussed are the scenarios where 
+a remote is used exclusively over a local repository, except for accessing files every now and then.
+
+It is good for sharing work.
+If you have a faulty PC etc. it is good for having a backup and possibly a low fingerprint - not too sure about the second part.
+Don't let your friends know who secretly check your computer that you are a l33t programmer.
