@@ -6,3 +6,8 @@ a remote is used exclusively over a local repository, except for accessing files
 It is good for sharing work.
 If you have a faulty PC etc. it is good for having a backup and possibly a low fingerprint - not too sure about the second part.
 Don't let your friends know who secretly check your computer that you are a l33t programmer.
+
+Part 2:
+Considering why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It is all about control vs. extra work. When Git is allowed to update a repository automatically, there is bound to be a set of rules that it must follow, which probably aren't all encompassing, meaning there are some/many cases that it will not handle well. Such as if a person makes a mistake - whom you are collaborating with - and uploads many files at once by accident. It wouldn't be desirable to say the least to have those files downloaded to your PC.
