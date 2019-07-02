@@ -25,3 +25,8 @@ Part 4:
 Considering what is the benefit of having a copy of the last known state of the remote stored locally.
 
 So that you can roll back and help with merges. Also, possibly as a backup for the online repo.
+
+Part 5:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Share files through emails, copy pasting code etc into chat. Using git hub is better for larger groups.
