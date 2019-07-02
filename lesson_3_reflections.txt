@@ -11,3 +11,12 @@ Part 2:
 Considering why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 It is all about control vs. extra work. When Git is allowed to update a repository automatically, there is bound to be a set of rules that it must follow, which probably aren't all encompassing, meaning there are some/many cases that it will not handle well. Such as if a person makes a mistake - whom you are collaborating with - and uploads many files at once by accident. It wouldn't be desirable to say the least to have those files downloaded to your PC.
+
+Part 3:
+Describing the differences between forks, clones and branches. When should one use one instead of another?
+
+Forking is when you clone a repository from another person's github to your own so that you may make your own version with it. It only exits on your github until you decide to clone it to your local repository.
+
+Cloning is when you download a repository or copy one from one place to another. It generates a copy of the repository and keeps the history of the commits.
+
+Branches are when you clone a repository state, which is exclusive i.e. you can only be in one state at a time. It is similar to forking in that you clone the repository so that you may make a different version or whatever is desired with it. It allows for merging after.
