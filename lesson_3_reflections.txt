@@ -20,3 +20,8 @@ Forking is when you clone a repository from another person's github to your own 
 Cloning is when you download a repository or copy one from one place to another. It generates a copy of the repository and keeps the history of the commits.
 
 Branches are when you clone a repository state, which is exclusive i.e. you can only be in one state at a time. It is similar to forking in that you clone the repository so that you may make a different version or whatever is desired with it. It allows for merging after.
+
+Part 4:
+Considering what is the benefit of having a copy of the last known state of the remote stored locally.
+
+So that you can roll back and help with merges. Also, possibly as a backup for the online repo.
