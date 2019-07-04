@@ -30,3 +30,8 @@ Part 5:
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Share files through emails, copy pasting code etc into chat. Using git hub is better for larger groups.
+
+Part 6:
+Considering when would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in a separate branch allows you to keep master safe in case you mess it up. If it works, then you can just merge back in and delete the branch. It's relatively lightweight too. However, while probably best practice, that isn't to say that you can't make changes to master itself, clearly it is allowed. However, this should probably be kept to simple changes and no new features you aren't entirely sure about.
